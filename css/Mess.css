@@ -1,0 +1,65 @@
+body{
+    background-color: #f5f5f5;
+}
+#MessVid{
+    margin-left: -300px;
+    height: 100px;
+    width: 200px;
+}
+
+.title{
+    display: flex;
+    flex-flow: row wrap;
+    color: black;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    
+}
+.title:hover{
+    color:  rgba(218, 165, 32, 0.747);
+}
+table{
+    border: 1px solid black;
+    width: 100%;
+    justify-items : center;
+    border-collapse: collapse;
+    
+}
+
+th{
+    height:50px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    color: black;
+    background-color: rgba(218, 165, 32, 0.747);
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+}
+tr{
+    border: 1px solid black;
+    border-collapse: collapse;
+    color: black;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+}
+td{ 
+    border: 1px solid black;
+    border-collapse: collapse;
+    color: black;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+}
