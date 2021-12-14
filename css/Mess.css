@@ -1,38 +1,39 @@
 body{
     background-color: #f5f5f5;
-}
-#MessVid{
-    margin-left: -300px;
-    height: 100px;
-    width: 200px;
+    background-image: linear-gradient(to right, #1E2738,#202020,#50505f,#262641,#2E313A,#1B334C);
+    padding-right: 20px; 
 }
 
-.title{
+#Heading{
     display: flex;
     flex-flow: row wrap;
     color: black;
-    align-items: center;
-    justify-content: space-evenly;
-    text-align: left;
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 32px;
-    
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
-.title:hover{
-    color:  rgba(218, 165, 32, 0.747);
+
+#bgMessVid{
+    height: 100px;
+    width: 100px;
 }
+
 table{
+    margin-top: 20px;
     border: 1px solid black;
-    width: 100%;
-    justify-items : center;
+    width: 98%;
+    height: 98%;
+    margin-left: 15px;
     border-collapse: collapse;
     
 }
 
 th{
-    height:50px;
+    height:45px;
     border: 1px solid black;
     border-collapse: collapse;
     color: black;
@@ -62,4 +63,45 @@ td{
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
+}
+@media (min-width:426px) and (max-width:768px) {
+    #heading{
+        gap: 10px;
+    }
+    #bgMessVid{
+        height: 100px;
+        width: 100px;
+    }
+    table{
+    margin-left: 40px;
+    width: 90%;
+    height: 50%;
+    }
+    th{
+        font-size: 22px;
+    }
+    td{
+        font-size: 17px;
+    }
+}
+
+@media (max-width:425px) {
+    #heading{
+        gap: 10px;
+    }
+    #bgMessVid{
+        height: 80px;
+        width: 100px;
+    }
+    table{
+    margin-left: 20px;
+    width: 90%;
+    height: 30%;
+    }
+    th{
+        font-size: 17px;
+    }
+    td{
+        font-size: 13px;
+    }
 }
